@@ -13,8 +13,8 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # API configuration
-API_KEY = "AIzaSyARJaqV15qwi1R8jEQTvl7npaby8LVGalY"
-CSE_ID = "83be00107795e467f"
+API_KEY = "<Your CSE API Key Here>"
+CSE_ID = "<Your CSE ID Here>"
 
 # Lemmatizer
 lemmer = WordNetLemmatizer()
@@ -30,7 +30,7 @@ def LemNormalize(text):
     return LemTokens(nltk.word_tokenize(text.lower().translate(remove_punct_dict)))
 
 # Read the text file
-with open('chatbot.txt', 'r', errors='ignore') as f:
+with open('chatbot_corpus.txt', 'r', errors='ignore') as f:
     raw = f.read()
 
 # Convert to lowercase
