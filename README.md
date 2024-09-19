@@ -1,4 +1,4 @@
-Chatbot with Web Search Integration
+##Chatbot with Web Search Integration##
 This project implements an interactive chatbot using Streamlit for the user interface, Natural Language Processing (NLP) techniques for chatbot responses, and Google Custom Search for retrieving relevant web results when the chatbot does not understand a query.
 
 Features
